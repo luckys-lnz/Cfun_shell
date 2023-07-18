@@ -50,6 +50,9 @@ char *create_path(char *token, char *command);
 /*file: memory.c*/
 void free_pp(char **pp);
 
+/*file: custom_getline.c*/
+ssize_t custom_getline(char **_lineptr, size_t *n, FILE *stream);
+
 /*BUILTIN COMMANDS*/
 
 /*file: exit.c*/
